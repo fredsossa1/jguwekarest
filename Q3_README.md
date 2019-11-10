@@ -7,16 +7,16 @@ Here is a summary of the commands to run to start profiling the JGU Weka applica
 - Installing JProfiler
 
 ## Retrieving the IP address of the JGU Weka container
-`` `
-$ docker inspect weka | grep -P "IPAddress" | grep -P "\ d +"
-`` `
+```
+$ docker inspect weka | grep -P "IPAddress" | grep -P "\d+"
+```
 
 ## Demonstration of JGU Weka container profiling
-`` `
+```
 $ docker exec -it weka bash
-$ chmod + x /home/tomcat/start_profiling.exp
+$ chmod +x /home/tomcat/start_profiling.exp
 $ /home/tomcat/start_profiling.exp
-`` `
+```
 
 ### JProfiler
 - Open the application jprofiler
