@@ -8,8 +8,8 @@ The following is a summary of the commands that must be executed to run load tes
 
 ## Runnig JMeter
 ```
-- Parcourir le dossier de l'application JMeter jusqu'à l'intérieur du dossier /bin.
-- Exécuter le script "jmeter" et l'application s'ouvrira
+- Browse the JMeter application folder inside the / bin folder.
+- Run the script "jmeter" and the application will open
 ```
 
 ### JMeter
