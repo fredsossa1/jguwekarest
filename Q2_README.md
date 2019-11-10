@@ -1,22 +1,22 @@
 # JGU WEKA Rest Service
 
-Voici un résumé des commandes à exécuter pour démarrer un conteneur Docker avec le service Rest de Weka.
+Here is a summary of the commands to run to start a Docker container with the Weka Rest service.
 
-## Prérequis
-- Installation de Docker
-- Installation de Maven
-- Installation de Docker-Compose
+## Prerequisites
+- Installation of Docker
+- Installation of Maven
+- Installation of Docker-Compose
 
-## Installation des images
+## Installing the images
 ```
 $ mvn clean package
 $ docker pull mongo
 $ docker build -t weka .
 ```
 
-## Installation et démarrage de Weka Rest
+## Installation and startup of Weka Rest
 ```
 $ docker-compose up
 ```
 
-On peut maintenant accéder à l'interface Swagger de Weka Rest via cette [http://localhost:80](http://localhost:80)
+You can now access the Swagger interface of Weka Rest via this [http: // localhost: 80] (http: // localhost: 80)
