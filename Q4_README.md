@@ -6,11 +6,11 @@ The following is a summary of the commands that must be executed to run load tes
 - JGU weka is deployed. (See Q2_README.md for more information)
 - JMeter is installed
 
-## Start of JMeter
-`` `
-- Browse the JMeter application folder inside the / bin folder.
-- Run the script "jmeter" and the application will open
-`` `
+## Runnig JMeter
+```
+- Parcourir le dossier de l'application JMeter jusqu'à l'intérieur du dossier /bin.
+- Exécuter le script "jmeter" et l'application s'ouvrira
+```
 
 ### JMeter
 - Open the test plan via File-> Open
